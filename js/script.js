@@ -196,8 +196,8 @@ $(document).ready(function() {
                 if (car_to_avoid_block1_current_position > track_height && car_to_avoid_block2_current_position > track_height)
                   {
                       if (lvl_count == 7)
-                        { cars_to_avoid_speed++;
-                          divider_speed++;
+                        { cars_to_avoid_speed += 2;
+                          divider_speed += 2;
                         }
 
                       car_to_avoid_block2_car1.hide();
@@ -254,8 +254,8 @@ $(document).ready(function() {
                 if (car_to_avoid_block1_current_position > track_height && car_to_avoid_block2_current_position > track_height)
                   {
                       if (lvl_count == 10)
-                        {cars_to_avoid_speed++;
-                         divider_speed++;
+                        {cars_to_avoid_speed+=2;
+                         divider_speed+=2;
                         }
 
                       car_to_avoid_block2_car1.hide();
