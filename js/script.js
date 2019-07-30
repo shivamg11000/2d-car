@@ -37,7 +37,7 @@ $(document).ready(function() {
      var dividers_first_current_position = parseInt(dividers_first.css('top'));
      var dividers_second_current_position = parseInt(dividers_second.css('top'));
 
-     var divider_speed = 4;
+     var divider_speed = 5;
 
      var dividers_moving = setInterval(function() {
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
     var car_to_avoid_block2_car2 = $('#second-row-to-avoid #carToAvoid2');
     var car_to_avoid_block2_car3 = $('#second-row-to-avoid #carToAvoid3');
 
-    var cars_to_avoid_speed = 3;
+    var cars_to_avoid_speed = 4;
     var random ;
     var lvl_count = 1;   /* the levels */
 
